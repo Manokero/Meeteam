@@ -12,7 +12,7 @@ namespace MeeteamAPI.Context
         public DbSet<Phone> Phones { get; set; }
         public DbSet<UserType> UserTypes { get; set; }
         public DbSet<Location> Locations { get; set; }
-
+        public DbSet <Event> Eventos { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // Specify the path of the database here
