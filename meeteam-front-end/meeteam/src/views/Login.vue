@@ -64,10 +64,10 @@ export default {
 }
 
 .defaultColor {
-  background-color: "#e2694d" !important;
+  background-color: #e2694d;
 }
 .defaultTextColor {
-  color: "#e2694d" !important;
+  color: #e2694d;
 }
 </style>
 
