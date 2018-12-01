@@ -1,0 +1,14 @@
+{
+  "name": "meeteam",
+  "version": "1.0.0",
+  "description": "An event scheduling and visualizer app which can join people with the same interests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
