@@ -6895,10 +6895,11 @@
       ]
     },
     "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
       "type": "package",
       "path": "newtonsoft.json/11.0.2",
       "files": [
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -11501,30 +11502,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jheis\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/pabloferreira/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jheis\\Documents\\GitHub\\Meeteam\\meeteam-back-end\\MeeteamAPI\\MeeteamAPI\\MeeteamAPI.csproj",
+      "projectUniqueName": "/Users/pabloferreira/Documents/MeeteamRepo/Meeteam/meeteam-back-end/MeeteamAPI/MeeteamAPI/MeeteamAPI.csproj",
       "projectName": "MeeteamAPI",
-      "projectPath": "C:\\Users\\jheis\\Documents\\GitHub\\Meeteam\\meeteam-back-end\\MeeteamAPI\\MeeteamAPI\\MeeteamAPI.csproj",
-      "packagesPath": "C:\\Users\\jheis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jheis\\Documents\\GitHub\\Meeteam\\meeteam-back-end\\MeeteamAPI\\MeeteamAPI\\obj\\",
+      "projectPath": "/Users/pabloferreira/Documents/MeeteamRepo/Meeteam/meeteam-back-end/MeeteamAPI/MeeteamAPI/MeeteamAPI.csproj",
+      "packagesPath": "/Users/pabloferreira/.nuget/packages/",
+      "outputPath": "/Users/pabloferreira/Documents/MeeteamRepo/Meeteam/meeteam-back-end/MeeteamAPI/MeeteamAPI/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jheis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/pabloferreira/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11544,8 +11543,7 @@
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.1.1, )",
-            "autoReferenced": true
+            "version": "[2.1.1, )"
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
@@ -11553,6 +11551,7 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

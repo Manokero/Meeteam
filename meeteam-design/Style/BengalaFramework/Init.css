@@ -1,0 +1,485 @@
+/* 
+REEMPLAZA TODOS LOS "rgba(2, 2, 2, 0)" por el Hexadecimal del color que prefieras.
+*/
+
+hr {
+    opacity: 0.5;
+    height: 0px;
+}
+
+.btn-margin {
+    margin-top: 10px;
+}
+
+.col {
+    padding: 0px !important;
+}
+
+.card {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    border-radius: 0px !important;
+    margin: 0px !important; 
+}
+
+.zTableRow {
+    padding: 10px;
+}
+.WrapperBackground {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 0;
+    position: absolute;
+}
+.zTableRow > .zData {
+    display: inline-block;
+    width: calc(50% - 2px);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #666;
+}
+.zTableRow > .zData.Left {
+    font-weight : bold;
+}
+
+.zTableRow > .zData.Right {
+    text-align : right;
+}
+
+.AppSlogan {
+    color: #FFF;
+    TEXT-ALIGN: CENTER;
+    font-size: 18px;    
+    text-shadow: 0px 1px 3px rgba(0,0,0,0.7)
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background-color: #000;
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;  
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+div#topBar.transparent {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-bottom: 1px solid;
+}
+
+div#MainContainer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    overflow: auto;
+    z-index: 0;
+}
+
+.ExcludeBarSize {
+
+}
+
+.noShadow {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+}
+
+.AppTitle {
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.6);
+}
+
+div#Everything {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    will-change : opacity;
+}
+
+#topBar {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(2, 2, 2, 0);
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.grandientBg {
+    background-color: rgba(2, 2, 2, 0);
+    background-image: linear-gradient(148deg, rgba(2, 2, 2, 0) 0,#961e7d 20%,#8d1d7c 30%,#721979 60%);
+}
+
+
+blockquote {
+    border-left-color: rgba(2, 2, 2, 0) !important;
+}
+
+.waves-effect.waves-defaultColor .waves-ripple {
+  background-color: rgba(2, 2, 2, 0);
+  opacity: 0.65;
+}
+
+.spinner-defaultColor,
+.spinner-defaultColor-only {
+  border-color: rgba(2, 2, 2, 0);
+}
+
+#topBar > .rt {
+    width: 60px;
+    display: inline-block;
+    float: right;
+    right: 0px;
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    border-radius: 100px;
+}
+
+#topBar > .lf {
+    width: 60px;
+    display: inline-block;
+    float: left;
+    left: : 0px;
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    border-radius: 100px;
+}
+
+#topBar > .ct {
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    left: 60px;
+    white-space: pre;
+    overflow: hidden;
+}
+
+
+
+
+
+
+input:focus:not([type]):not([readonly]) + label, input[type="text"]:focus:not([readonly]) + label, input[type="password"]:focus:not([readonly]) + label, input[type="email"]:focus:not([readonly]) + label, input[type="url"]:focus:not([readonly]) + label, input[type="time"]:focus:not([readonly]) + label, input[type="date"]:focus:not([readonly]) + label, input[type="datetime"]:focus:not([readonly]) + label, input[type="datetime-local"]:focus:not([readonly]) + label, input[type="tel"]:focus:not([readonly]) + label, input[type="number"]:focus:not([readonly]) + label, input[type="search"]:focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: rgba(1, 1, 1, 0);
+}
+.input-field input[type=text]:focus  label {
+   color: rgba(2, 2, 2, 0);
+}
+.input-field input[type=text]:focus {
+   border-bottom: 1px solid rgba(2, 2, 2, 0);
+   -webkit-box-shadow: 0 1px 0 0 rgba(2, 2, 2, 0);
+           box-shadow: 0 1px 0 0 rgba(2, 2, 2, 0);
+}
+.input-field input[type=text].valid {
+   border-bottom: 1px solid rgba(2, 2, 2, 0);
+   -webkit-box-shadow: 0 1px 0 0 rgba(2, 2, 2, 0);
+           box-shadow: 0 1px 0 0 rgba(2, 2, 2, 0);
+}
+.input-field input[type=text].invalid {
+   border-bottom: 1px solid rgba(2, 2, 2, 0);
+   -webkit-box-shadow: 0 1px 0 0 rgba(2, 2, 2, 0);
+           box-shadow: 0 1px 0 0 rgba(2, 2, 2, 0);
+}
+.input-field .prefix.active {
+   color: rgba(1, 1, 1, 0);
+}
+.btn, .btn-large {
+    background-color: rgba(2, 2, 2, 0) !important;
+}
+.progress .indeterminate {
+    background-color: rgba(2, 2, 2, 0) !important;
+}
+.progress {
+    background-color: rgba(2, 2, 2, 0) !important;
+}
+
+input[type="range"] + .thumb {
+    background-color: rgba(2, 2, 2, 0) !important;
+}
+.dropdown-content li > a, .dropdown-content li > span {
+    color: rgba(2, 2, 2, 0) !important;
+}
+.btn-block {
+    display: block;
+}
+.btn-full {
+    widows: 100%;
+}
+
+.defaultColor  {  background-color: rgba(2, 2, 2, 0) !important; }
+.defaultTextColor  {  color: rgba(1, 1, 1, 0) !important; }
+
+input:focus:not([type]):not([readonly]), input[type="text"]:focus:not([readonly]), input[type="password"]:focus:not([readonly]), input[type="email"]:focus:not([readonly]), input[type="url"]:focus:not([readonly]), input[type="time"]:focus:not([readonly]), input[type="date"]:focus:not([readonly]), input[type="datetime"]:focus:not([readonly]), input[type="datetime-local"]:focus:not([readonly]), input[type="tel"]:focus:not([readonly]), input[type="number"]:focus:not([readonly]), input[type="search"]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid rgba(2, 2, 2, 0);
+    -webkit-box-shadow: 0 1px 0 0 rgba(2, 2, 2, 0);
+            box-shadow: 0 1px 0 0 rgba(2, 2, 2, 0);
+}
+
+.FullBlack {
+    position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #000 !important;
+            background-size: cover !important;
+}
+
+        .PageBackground {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #000 !important;
+            background-size: cover !important;
+            opacity: 0.85;
+        }
+
+
+.PageBackground.Grandient {
+    background: #1F77D0 !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1F77D0), to(#533ce1)) !important;
+    background: linear-gradient(to bottom, #1F77D0 0%, #533ce1 100%) !important;
+    background-size: 150% 150% !important;
+}
+
+.input-field label.active {
+  color: rgba(2, 2, 2, 0) !important;
+  position: absolute;
+  top: 0.8rem;
+  left: 0;
+  font-size: 1rem;
+  cursor: text;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  text-align: initial;
+}
+
+.blue.darken-1 {
+    background-color: rgba(2, 2, 2, 0) !important;
+}
+
+.blue-text.text-darken-1 {
+    color: rgba(1, 1, 1, 0) !important;
+}
+
+.tabs .indicator {
+    background-color: rgba(2, 2, 2, 0) !important;
+}
+/* Platform */
+
+div#MainContainer.UI_DEFAULT {
+    height: calc(100% - 60px);
+}
+
+
+div#MainContainer.UI_NONE {
+    height: calc(100% - 0px) !important;
+}
+
+div#MainContainer.ExcludeBottomBar.UI_DEFAULT {
+    height: calc(100% - 60px - 60px) !important;
+    bottom: 60px !important;
+}
+
+div#MainContainer.ExcludeBottomBar.UI_DEFAULT {
+    height: calc(100% - 50px - 60px) !important;
+    bottom: 60px !important;
+}
+
+div#topBar.UI_DEFAULT {
+    height: 60px;
+    line-height: 60px;
+    -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+        box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+}
+
+
+div#MainContainer.UI_IOS {
+    height: calc(100% - 50px);
+}
+
+div#topBar.UI_IOS {
+    height : 50px;
+    line-height : 50px;
+}
+
+div#topBar.UI_WP {
+    height : 50px;
+    line-height : 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/*html.UI_IOS, body.UI_IOS {
+      font-family: "SF display", sans-serif;
+}
+
+html.UI_DEFAULT, body.UI_DEFAULT {
+      font-family: "Roboto", sans-serif;
+}*/
+
+html {
+      font-family: sans-serif;
+}
+
+.FakeStatusBar {
+    height: 25px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.noPadding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.LoginContainer {
+    position: fixed;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+}
+
+
+.PaddingNone {
+    padding : 0 !important; 
+}
+
+.ListMode {
+    border-bottom: 1px solid #EEE !important;
+    border-radius: 0px !important;
+}
+.MarginNone{
+    margin: 0 !important;
+}
+
+
+.ImageWrapper {
+    height: 200px;
+    text-align: center;
+    /* margin: 10px; */
+    background-color: rgba(0, 0, 0, 0.66);
+    /* border-radius: 5px; */
+    line-height: 200px;
+    font-size: 50px;
+    /* border-bottom: 1px dashed #CCC; */
+    color: rgba(255, 255, 255, 0.88);
+    text-transform: uppercase;
+    /* letter-spacing: 2px; */
+    overflow: hidden;
+}
+
+textarea.form-control.Publish {
+    padding: 10px;
+    resize: auto;
+    height: 138px;
+    color: #666;
+    background-color: #FFF;
+    border: 0px;
+    resize: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+            box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+    outline: none !important;
+}
+
+.CharCount {
+    text-align: right;
+    font-size: 21px;
+    color: rgba(26, 117, 187, 0.39);
+    padding-right: 12px;
+    margin-top: -41px;
+    height: 35px;
+}
+
+.ImageWrapper > img {
+    width: 100%;
+}
+
+.FullPageLoad {
+    width: 100%;
+    text-align: center;
+    padding-top: 27px;
+    font-size: 23px;
+    font-weight: 300;
+    color: #1a75bb;
+    position: absolute;
+    z-index: 9999;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+
+.bubble {
+    padding: 10px;
+    background-color: #1a75bb;
+    margin-top: 13px;
+    width: calc(100% - 39px);
+    margin: 10px;
+    border-radius: 15px;
+    color: #FFF;
+}
+
+.bubble > .author {
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.bubble > .date {
+    text-align: right;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.bubble.left {
+    border-radius  : 0px 15px 15px 15px
+}
+.bubble.right {
+    background-color : #FFF;
+    color: #1a75bb;
+    border-radius  : 15px 0px 15px 15px
+}
+
+.bubble.right > .author {
+    display : none;
+}
+.bubble.right > .message {
+    text-align : right
+    
+}
+
+.bubble.right > .date {
+    text-align: right;
+    font-size: 12px;
+    opacity: 0.5;
+}

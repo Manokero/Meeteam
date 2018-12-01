@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{D7359D40-1B4C-4BCA-AF7E-DA60A884E481}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MeeteamAPI/Controllers/ValuesController.cs">
+    <Files>
+      <File FileName="MeeteamAPI/Controllers/ValuesController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MeeteamAPI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

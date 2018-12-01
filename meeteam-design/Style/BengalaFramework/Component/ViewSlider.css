@@ -1,0 +1,12 @@
+.ViewSliderContainer {
+    overflow: hidden;
+}
+
+.ViewSliderContainer > .ViewsBox >.ViewSlide.View {
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: table-caption;
+    float: left;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
