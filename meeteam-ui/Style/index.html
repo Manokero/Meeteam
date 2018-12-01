@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
+
+    <!-- Estos son los Estilos por Defecto -->
+    <link rel="stylesheet" type="text/css" href="Style/ThirdParty/Materialize.css">
+    <link rel="stylesheet" type="text/css" href="Style/ThirdParty/CommentTable.css">
+
+    <link rel="stylesheet" type="text/css" href="Style/ThirdParty/CatalogStyle.css">
+    <link rel="stylesheet" type="text/css" href="Style/ThirdParty/font-awesome.css">
+
+    <link rel="stylesheet" id="BengalaFrameworkStyle" type="text/css" href="Style/BengalaFramework/Init.css">
+
+    <link rel="stylesheet" type="text/css" href="Style/BengalaFramework/Component/Sidebar.css">
+    <link rel="stylesheet" type="text/css" href="Style/BengalaFramework/Component/ViewSlider.css">
+    <link rel="stylesheet" type="text/css" href="Style/BengalaFramework/Component/TabBar.css">
+    <link rel="stylesheet" type="text/css" href="Style/BengalaFramework/Component/DismissList.css">
+
+    <link rel="stylesheet" type="text/css" href="Style/BengalaFramework/Util/Styletto.css">
+    <link rel="stylesheet" type="text/css" href="Style/BengalaFramework/Util/Animation.css">
+
+    <style type="text/css" id="PlatformCSS"></style>
+
+    <!--  Estas son librerias que son necesarias para que la aplicacion trabaje -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="Script/ThirdParty/JQuery.js"></script>
+
+    <!-- Aqui van los estilos que tu quieras agregar -->
+    <link rel="stylesheet" type="text/css" href="Style/Default.css">
+
+
+    <title></title>
+</head>
+<body>
+
+    <!-- Esto maneja el contenido de la pagina! El manejo de vistas y etc... -->
+    <!-- No se deberia modificar! Pues sin esto no habra barra superior, ni vistas. Solo modificalo si estas seguro de lo que haces. -->
+    <div id="Everything">
+        <div id="MainContainer" class="UI_NONE">
+        </div>
+    </div>
+
+    <!-- Estas son librerias, que facilitan la vida! Dando estilos, animaciones, manejos de vistas, mascaras, controles de todo! Sin programarlo de Nuevo -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYEQBQjL_x0WZMXPyknsDCPxDH2HrE1h0&language=es&region=DO"></script>
+
+
+    <script type="text/javascript" src="Script/ThirdParty/Materialize.js"></script>
+    <script type="text/javascript" src="Script/ThirdParty/socket.io.js"></script>
+    <script type="text/javascript" src="Script/ThirdParty/inputmask.js"></script>
+    <script type="text/javascript" src="Script/ThirdParty/inputmask.extensions.js"></script>
+    <script type="text/javascript" src="Script/ThirdParty/inputmask.numeric.extensions.js"></script>
+    <script type="text/javascript" src="Script/ThirdParty/jquery.inputmask.js"></script>
+
+    <!-- Bengala Main -->
+    <script type="text/javascript" src="Script/BengalaFramework/Main.js"></script> 
+
+    <!-- Bengala Addons -->
+    <script type="text/javascript" src="Script/BengalaFramework/Addon/Context.js"></script>
+    <script type="text/javascript" src="Script/BengalaFramework/Addon/FormAjax.js"></script>
+    <script type="text/javascript" src="Script/BengalaFramework/Addon/ObjectMemory.js"></script>
+    <script type="text/javascript" src="Script/BengalaFramework/Addon/ObjectTable.js"></script>
+
+    <!-- Bengala Utilities -->
+    <script type="text/javascript" src="Script/BengalaFramework/Util/Validation.js"></script>
+    <script type="text/javascript" src="Script/BengalaFramework/Util/ValueFormat.js"></script>
+    <script type="text/javascript" src="Script/BengalaFramework/Util/Form.js"></script>
+    <script type="text/javascript" src="Script/BengalaFramework/Util/Misc.js"></script>
+    <script type="text/javascript" src="Script/BengalaFramework/Util/Animation.js"></script>
+
+    <!-- Bengala Modules -->
+    <script type="text/javascript" src="Script/BengalaFramework/Module/ViewRenderer.js"></script>
+    <script type="text/javascript" src="Script/BengalaFramework/Module/ViewManager.js"></script>
+    <script type="text/javascript" src="Script/BengalaFramework/Module/MobileWrapper.js"></script>
+
+    <!-- Bengala Components -->
+    <script type="text/javascript" src="Script/BengalaFramework/Component/ActivityBar.js"></script>
+    <script type="text/javascript" src="Script/BengalaFramework/Component/Sidebar.js"></script>
+    <script type="text/javascript" src="Script/BengalaFramework/Component/ViewSlider.js"></script>
+    <script type="text/javascript" src="Script/BengalaFramework/Component/DismissList.js"></script>
+    <script type="text/javascript" src="Script/BengalaFramework/Component/TabBar.js"></script>
+
+    <script type="text/javascript" src="Script/Default.js"></script>
+    <script type="text/javascript" src="Script/Config.js"></script>
+
+
+    <!-- Aqui van los Scripts de tu preferencia! Tu codigo personalizado -->
+    <script>
+
+        $(document).ready(function() {
+            if(typeof cordova == 'undefined') {
+                app.onDeviceReady()
+            }
+        })
+    </script>
+</body>
+</html>
