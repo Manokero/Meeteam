@@ -1,0 +1,24 @@
+<div id="SidebarMenu" class="white SidebarSlide Open" style="transform: translateX(0px); display: block; z-index: 999999;" render="Sidebar.html">
+    <div class="SidebarSection HEADER">
+        <div class="SidebarProfile white">
+            <div class="Left">
+                <div class="ProfilePhoto defaultColor white-text" id="Sidebar_Initials">{{Session.User.Contact.FirstName.charAt(0)}}</div>
+            </div>
+            <div class="Right" style="padding-top: 15px">
+                <div class="defaultTextColor" style="font-weight: bold" id="Sidebar_UserName">{{Session.User.Contact.FirstName}} {{Session.User.Contact.LastName}}</div>
+                <div class="WorkPosition defaultTextColor">{{Session.User.UserType.Name}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="SidebarSection BODY" style="height: 305px;">
+         <a class="SidebarOption waves-effect" href="#Events.html">Inicio</a>
+         <a class="SidebarOption waves-effect" href="#Meeting.html">Team Maker</a>
+    
+    </div>
+    <div class="SidebarSection FOOTER">
+        <a class="SidebarOption Active defaultTextColor waves-effect" href="#Logout.html">Cerrar Sesion</a>
+    </div>
+    <script type="text/javascript">
+            $(".SidebarOption").on("click", x => Sidebar.Close(true));
+    </script>
+</div>

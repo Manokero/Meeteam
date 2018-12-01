@@ -81,6 +81,6 @@ Settings.ActivityBarSettings.RightButtonAction = function() {
 // Se debe ocultar la barra superior?
 Settings.ActivityBarSettings.Hidden = true;
 
-Settings.SidebarSettings.SidebarRender = "Sidebar.html";
+Settings.SidebarSettings.SidebarRender = "Component/Sidebar.html";
 
 Settings.AnimationSettings.Duration = 0.5
