@@ -40,7 +40,7 @@
 </div>
 <script type="text/javascript">
     Settings.ActivityBarSettings.Hidden = true;
-
+    Settings.ActivityBarSettings.HasLeftButton = true;
     $("#Login").on("click", function() {
         if($("[name='Username']").val().trim() == "") {
             Materialize.toast("El usuario no puede estar vacio.");

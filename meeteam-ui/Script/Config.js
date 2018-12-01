@@ -75,7 +75,7 @@ Settings.ActivityBarSettings.HasRightButton = true;
 Settings.ActivityBarSettings.RightButtonIcon = "fa-search";
 // Lo que Sucedera al pulsar ese boton
 Settings.ActivityBarSettings.RightButtonAction = function() {
-	location.hash = "Search.html";
+	location.hash = "Meeting.html";
 };
 
 // Se debe ocultar la barra superior?
