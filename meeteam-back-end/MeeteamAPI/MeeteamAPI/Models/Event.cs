@@ -21,9 +21,9 @@ namespace MeeteamAPI.Models
         [DisplayName("Fecha del evento")]
         public DateTime Date { get; set; }
         [DisplayName("Lugar del evento")]
-        public string Place { get; set; }
+        public Location Location { get; set; }
         [DisplayName("Temas del evento")]
-        public List<String> Themes { get; set; }
+        public List<Topic> Topics { get; set; }
         [DisplayName("Usuarios registrados")]
         public List<User> RegisteredUsers { get; set; }
     }

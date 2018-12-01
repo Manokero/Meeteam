@@ -10,6 +10,7 @@ namespace MeeteamAPI.Services
         public static Event Create(Event localEvent)
         {
             MeeteamDatabase database = new MeeteamDatabase();
+            localEvent.Organizer = database.Users.Find(localEvent.Organizer.ID);
             database.Add(localEvent);
             database.SaveChanges();
             return localEvent;
@@ -51,19 +52,10 @@ namespace MeeteamAPI.Services
                 throw new Exception("El evento no puede estar vacio.");
             if (localEvent.Date == null)
                 throw new Exception("La fecha del evento debe estar definido.");
-            if (localEvent.Place == null)
-                throw new Exception("El lugar del evento debe estar definido.");
-            if (localEvent.Place.Trim() == "")
-                throw new Exception("El lugar del evento no puede estar vacio.");
             if (localEvent.Organizer == null)
                 throw new Exception("El organizador del evento debe estar definido.");
 
         }
-
-        public static Event Get(string Title)
-        {
-            MeeteamDatabase database = new MeeteamDatabase();
-            return database.Events.Where(x => x.Title == Title).FirstOrDefault();
-        }
+        
     }
 }
