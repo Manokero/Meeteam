@@ -31,10 +31,7 @@
         </div>
         <div class="row">
             <div>
-                <a href="#Forgot.html" class="Styletto button rounded topMargin defaultTextColor medium animateCubic right shadowed waves-effect waves-defaultColor notRoundBottom"> 
-                    Olvidaste tu clave?
-                </a>
-                <a href="#Register.html" class="Styletto button rounded notRoundTop defaultTextColor medium animateCubic right shadowed waves-effect  waves-defaultColor"> 
+                <a href="#Register.html" class="Styletto topMargin button rounded notRoundTop topMargin defaultTextColor medium animateCubic right shadowed waves-effect  waves-defaultColor"> 
                     Registrate
                 </a>
             </div>
@@ -43,4 +40,25 @@
 </div>
 <script type="text/javascript">
     Settings.ActivityBarSettings.Hidden = true;
+
+    $("#Login").on("click", function() {
+        if($("[name='Username']").val().trim() == "") {
+            Materialize.toast("El usuario no puede estar vacio.");
+            return;
+        }
+        if($("[name='Password']").val().trim() == "") {
+            Materialize.toast("La clave no puede estar vacia.");
+            return;
+        }
+
+        $("#Login").html(`<i class='fa fa-spinner fa-pulse fa-fw'></i>`)
+        setTimeout(function() {
+            $("#Login").html("Iniciar sesion");
+            if($("[name='Password']").val().trim() != "125478") {
+                Materialize.toast("Clave incorrecta");
+                return;
+            }
+            location.hash = "Events.html";
+        }, 2000)
+    });
 </script>
