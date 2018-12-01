@@ -1,0 +1,14 @@
+C:\Users\Marin\Documents\GitHub\Repos\Meeteam\meeteam-back-end\MeeteamAPI\MeeteamAPI\bin\Debug\netcoreapp2.1\MeeteamAPI.deps.json
+C:\Users\Marin\Documents\GitHub\Repos\Meeteam\meeteam-back-end\MeeteamAPI\MeeteamAPI\bin\Debug\netcoreapp2.1\MeeteamAPI.runtimeconfig.json
+C:\Users\Marin\Documents\GitHub\Repos\Meeteam\meeteam-back-end\MeeteamAPI\MeeteamAPI\bin\Debug\netcoreapp2.1\MeeteamAPI.runtimeconfig.dev.json
+C:\Users\Marin\Documents\GitHub\Repos\Meeteam\meeteam-back-end\MeeteamAPI\MeeteamAPI\bin\Debug\netcoreapp2.1\MeeteamAPI.dll
+C:\Users\Marin\Documents\GitHub\Repos\Meeteam\meeteam-back-end\MeeteamAPI\MeeteamAPI\bin\Debug\netcoreapp2.1\MeeteamAPI.pdb
+C:\Users\Marin\Documents\GitHub\Repos\Meeteam\meeteam-back-end\MeeteamAPI\MeeteamAPI\obj\Debug\netcoreapp2.1\MeeteamAPI.csprojAssemblyReference.cache
+C:\Users\Marin\Documents\GitHub\Repos\Meeteam\meeteam-back-end\MeeteamAPI\MeeteamAPI\obj\Debug\netcoreapp2.1\MeeteamAPI.csproj.CoreCompileInputs.cache
+C:\Users\Marin\Documents\GitHub\Repos\Meeteam\meeteam-back-end\MeeteamAPI\MeeteamAPI\obj\Debug\netcoreapp2.1\MeeteamAPI.RazorAssemblyInfo.cache
+C:\Users\Marin\Documents\GitHub\Repos\Meeteam\meeteam-back-end\MeeteamAPI\MeeteamAPI\obj\Debug\netcoreapp2.1\MeeteamAPI.RazorAssemblyInfo.cs
+C:\Users\Marin\Documents\GitHub\Repos\Meeteam\meeteam-back-end\MeeteamAPI\MeeteamAPI\obj\Debug\netcoreapp2.1\MeeteamAPI.AssemblyInfoInputs.cache
+C:\Users\Marin\Documents\GitHub\Repos\Meeteam\meeteam-back-end\MeeteamAPI\MeeteamAPI\obj\Debug\netcoreapp2.1\MeeteamAPI.AssemblyInfo.cs
+C:\Users\Marin\Documents\GitHub\Repos\Meeteam\meeteam-back-end\MeeteamAPI\MeeteamAPI\obj\Debug\netcoreapp2.1\MeeteamAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Marin\Documents\GitHub\Repos\Meeteam\meeteam-back-end\MeeteamAPI\MeeteamAPI\obj\Debug\netcoreapp2.1\MeeteamAPI.dll
+C:\Users\Marin\Documents\GitHub\Repos\Meeteam\meeteam-back-end\MeeteamAPI\MeeteamAPI\obj\Debug\netcoreapp2.1\MeeteamAPI.pdb

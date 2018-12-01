@@ -19,6 +19,5 @@ namespace MeeteamAPI.Models
         public int Status { get; set; }
         [DisplayName("Informacion de Contacto")]
         public Contact Contact { get; set; }
-        [DisplayName("Sucursal")]
     }
 }
