@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace HesserCore.Models.Common
+namespace MeeteamAPI.Models
 {
     public class UserType
     {
