@@ -1,0 +1,55 @@
+.card-comments {
+    border-top: 1px solid #EEE;
+}
+
+
+.comment {
+    padding: 9px;
+}
+
+.comment > .topRow > .username {
+    font-size: 11px;
+    font-weight: bold;
+    color: #1a75bb;
+}
+
+.comment > .content {
+    font-size: 12px;
+}
+
+.comment  > .topRow > * {
+    display: inline-block;
+    width: calc(50% - 2px);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 12px;
+}
+
+.comment > .topRow > .commentdate {
+    text-align: right;
+    color: #AAA;
+}
+
+.comment:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.usercomment {
+    border-top : 1px solid #eee;
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.usercomment > textarea {
+    border : none !important;
+    resize : none;
+    padding : 8px;font-size : 13px;
+    background-color : #F9F9F9;margin : 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #EEE!important;
+    outline:  none !important;
+}
+
+

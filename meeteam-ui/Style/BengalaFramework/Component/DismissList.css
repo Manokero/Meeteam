@@ -1,0 +1,10 @@
+.ItemBackCover_dismissList {
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	z-index: 0
+	left :0px;
+	font-weight: bold;
+	width: 100%;
+}

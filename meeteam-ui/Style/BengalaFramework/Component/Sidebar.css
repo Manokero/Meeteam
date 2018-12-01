@@ -1,0 +1,149 @@
+.SidebarGap {
+    position: absolute;
+    height: 100%;
+    width: 15px;
+    z-index: 1003;
+}
+
+.SidebarGap.Open {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1003;
+}
+
+.SidebarSlide.BodyScroll {
+    box-shadow: -5px 0px 15px rgba(0,0,0,0.08) inset !important;
+}
+
+.SidebarSlide.nonAnimation {
+    transition: none !important;
+    transition-timing-function: none !important;
+
+}
+
+.SidebarSlide.fastAnimation {
+    transition: transform 0.2s !important;
+    transition-timing-function: cubic-bezier(0.1, 0.82, 0.25, 1) !important;
+    will-change: transform;
+}
+
+.SidebarSlide {
+    position: absolute;
+    width: 256px;
+    background-color: #FFF;
+    height: 100%;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    transition: transform 0.5s;
+    transition-timing-function: cubic-bezier(0.1, 0.82, 0.25, 1);
+    will-change: transform;
+}
+
+.SidebarSlide.Open {
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+.SidebarSlide.Close {
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+            display: none;
+}
+
+.SidebarSection {
+    position: relative;
+    width: 100%;
+}
+
+.SidebarSection.FOOTER {
+    bottom: 0px;
+    position: absolute;
+}
+
+
+.SidebarOption.Subheader {
+    color: rgba(0,0,0,0.54);
+}
+
+.SidebarSection > hr {
+    opacity: 0.2;
+    margin: 0px !important;
+}
+
+.SidebarLogo {
+    background-image: url("/Image/SidebarLogo.png");
+    background-size: cover;
+    width: 256px;
+    height: 140px;
+}
+
+
+.SidebarOption {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 22px;
+    color: rgba(0, 0, 0, 0.87);
+    padding-bottom: 20px;
+    /* padding-top: 21px; */
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    display: block;
+    transition: 0.5s;
+}
+
+.SidebarOption.active {
+    /* -webkit-box-shadow: 3px 0px inset; */
+    /* box-shadow: 3px 0px inset; */
+    background-color: rgba(0, 0, 0, 0.04);
+    /* color: #1a75bb !important; */
+    font-weight: bold;;
+}
+
+.SidebarProfile {
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.01);
+    overflow: hidden;
+}
+
+
+.SidebarProfile > div {
+    display : inline-block;
+}
+
+.SidebarProfile > .Left {
+    width: 70px;
+    height: 70px;
+    padding : 10px;
+    text-align : center;
+}
+
+.SidebarProfile > .Left > .ProfilePhoto {
+    background-color : #1a75bb;
+    height : 50px;
+    width : 50px;
+    display : inline-block;
+    border-radius : 100%;
+    overflow : hidden;
+    line-height: 50px;
+    color: #FFF;
+    font-size: 18px;
+}
+.SidebarProfile > .Right > .UserName {
+    height: 70px;
+    line-height: 70px;
+    white-space: pre;
+    overflow: hidden;
+    color: #000;
+}
+.SidebarProfile > .Left > .ProfilePhoto > img {
+    height : 100%;
+    width : 100%;
+}
+.SidebarProfile > .Right {
+    float : right;
+    width : calc(100% - 70px)
+}
+
+.SidebarSection.FOOTER > .SidebarOption {
+    font-weight:bold;
+    /*background-color: #fcfcfc;*/
+    /*border-top: 1px solid #EEE;*/
+}
