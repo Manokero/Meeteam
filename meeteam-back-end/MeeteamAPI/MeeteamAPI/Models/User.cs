@@ -10,7 +10,7 @@ namespace MeeteamAPI.Models
         [DisplayName("Usuario")]
         public int ID { get; set; }
         [DisplayName("Nombre de usuario")]
-        public string UserName { get; set; }
+        public string Name { get; set; }
         [DisplayName("Clave")]
         public string Password { get; set; }
         [DisplayName("Tipo de usuario")]
@@ -19,6 +19,5 @@ namespace MeeteamAPI.Models
         public int Status { get; set; }
         [DisplayName("Informacion de Contacto")]
         public Contact Contact { get; set; }
-        [DisplayName("Sucursal")]
     }
 }
