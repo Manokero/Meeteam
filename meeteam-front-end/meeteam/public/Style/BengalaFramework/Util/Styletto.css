@@ -16,6 +16,14 @@
 }
 
 
+.defaultColor {
+  background-color: #e2694d;
+}
+
+.defaultTextColor {
+  color: #e2694d;
+}
+
 .Styletto>input::-webkit-input-placeholder {
   color: inherit;
   opacity: 0.8

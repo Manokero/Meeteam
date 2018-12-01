@@ -2,7 +2,10 @@
   <div class="row">
     <br>
     <br>
-    <div class="col s12 m6 offset-m3 l4 offset-l4 LoginContainer" style="padding: 30px !important">
+    <div
+      class="col-sm-12 col-md-6 offset-md-3 col-lg-4 offset-lg-4 LoginContainer"
+      style="padding: 30px !important"
+    >
       <div class="row">
         <div>
           <div class="LoginTitle defaultTextColor">Meeteam</div>
@@ -61,13 +64,6 @@ export default {
   text-align: left;
   text-shadow: none;
   font-size: 30px;
-}
-
-.defaultColor {
-  background-color: #e2694d;
-}
-.defaultTextColor {
-  color: #e2694d;
 }
 </style>
 
