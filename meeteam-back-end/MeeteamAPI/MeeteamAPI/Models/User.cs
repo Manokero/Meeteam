@@ -19,5 +19,7 @@ namespace MeeteamAPI.Models
         public int Status { get; set; }
         [DisplayName("Informacion de Contacto")]
         public Contact Contact { get; set; }
+        [DisplayName("Lista de amigos")]
+        public List<User> Friends { get; set; }
     }
 }

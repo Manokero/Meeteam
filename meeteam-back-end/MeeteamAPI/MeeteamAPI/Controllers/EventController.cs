@@ -23,7 +23,11 @@ namespace MeeteamAPI.Controllers
             return EventService.Get(id);
         }
 
-
+        [HttpGet]
+        public ActionResult<List<Event>> All()
+        {
+            return EventService.All();
+        }
 
         [HttpPut("id")]
         public void Update(int id, [FromBody] Event localEvent)

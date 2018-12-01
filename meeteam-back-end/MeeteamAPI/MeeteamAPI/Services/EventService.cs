@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using MeeteamAPI.Context;
 using MeeteamAPI.Models;
@@ -16,6 +17,12 @@ namespace MeeteamAPI.Services
             return localEvent;
         }
 
+        public static List<Event> All()
+        {
+            MeeteamDatabase database = new MeeteamDatabase();
+
+            return database.Events.ToList();
+        }
         public static Event Update(Event localEvent)
         {
             MeeteamDatabase database = new MeeteamDatabase();
